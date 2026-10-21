@@ -8,7 +8,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 /* Updated collection photography and image-only masthead. */
-.hero-image{background:#eee2c9;overflow:hidden}.hero-image:after{display:none}.hero-image>img{display:block;width:100%;height:auto;aspect-ratio:3/1;object-fit:contain}
+.hero-image{background:#eee2c9;overflow:hidden}.hero-image:after{display:none}.hero-image>img{display:block;width:100%;height:auto;aspect-ratio:1920/626;object-fit:cover}
 .shop-title{font:35px/1.1 'Libre Caslon Display',Georgia,serif;letter-spacing:-.4px;margin:0;color:var(--ink)}
 .order-deadline{max-width:1156px;margin:17px auto -19px;display:flex;gap:5px;align-items:center;color:var(--muted);font-size:10px}.order-deadline strong{color:var(--wine);font-weight:550}
 .product-wrap{position:relative;min-width:0;display:flex;flex-direction:column}.product-wrap>.product{width:100%;flex:1}.product-photo{height:auto!important;aspect-ratio:4/3;object-fit:contain!important;background:#b4ad97}.product[data-model="1"] .product-photo{background:#efe5cd}.product[data-model="2"] .product-photo{background:#b4ad97!important}.product-zoom{border:0;background:none;font-size:10px;color:var(--wine);padding:8px 0 1px;align-self:center;display:flex;align-items:center;gap:5px}.product-zoom:hover span{text-decoration:underline;text-underline-offset:3px}
